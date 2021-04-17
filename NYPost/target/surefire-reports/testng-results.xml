@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="NYPost Test Script" duration-ms="106231" started-at="2021-04-15T14:30:59 EDT" finished-at="2021-04-15T14:32:45 EDT">
+    <groups>
+    </groups>
+    <test name="NYP Home" duration-ms="106231" started-at="2021-04-15T14:30:59 EDT" finished-at="2021-04-15T14:32:45 EDT">
+      <class name="home.NYPostSectionNews">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:home.NYPostSectionNews@d44fc21]" name="setUp" is-config="true" duration-ms="33562" started-at="2021-04-15T14:31:31 EDT" finished-at="2021-04-15T14:32:05 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://nypost.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="getSectionNews()[pri:0, instance:home.NYPostSectionNews@d44fc21]" name="getSectionNews" duration-ms="1166" started-at="2021-04-15T14:32:05 EDT" finished-at="2021-04-15T14:32:06 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getSectionNews -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:home.NYPostSectionNews@d44fc21]" name="cleanUp" is-config="true" duration-ms="455" started-at="2021-04-15T14:32:06 EDT" finished-at="2021-04-15T14:32:06 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- home.NYPostSectionNews -->
+      <class name="home.NYPostHomePage">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:home.NYPostHomePage@578486a3]" name="setUp" is-config="true" duration-ms="31431" started-at="2021-04-15T14:30:59 EDT" finished-at="2021-04-15T14:31:31 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://nypost.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="home()[pri:0, instance:home.NYPostHomePage@578486a3]" name="home" duration-ms="114" started-at="2021-04-15T14:31:31 EDT" finished-at="2021-04-15T14:31:31 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- home -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:home.NYPostHomePage@578486a3]" name="cleanUp" is-config="true" duration-ms="496" started-at="2021-04-15T14:31:31 EDT" finished-at="2021-04-15T14:31:31 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- home.NYPostHomePage -->
+      <class name="home.NYPostTestSearch">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:home.NYPostTestSearch@23faf8f2]" name="setUp" is-config="true" duration-ms="38591" started-at="2021-04-15T14:32:06 EDT" finished-at="2021-04-15T14:32:45 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://nypost.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="search()[pri:0, instance:home.NYPostTestSearch@23faf8f2]" name="search" duration-ms="0" started-at="2021-04-15T14:32:45 EDT" finished-at="2021-04-15T14:32:45 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:home.NYPostTestSearch@23faf8f2]" name="cleanUp" is-config="true" duration-ms="378" started-at="2021-04-15T14:32:45 EDT" finished-at="2021-04-15T14:32:45 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- home.NYPostTestSearch -->
+    </test> <!-- NYP Home -->
+  </suite> <!-- NYPost Test Script -->
+</testng-results>

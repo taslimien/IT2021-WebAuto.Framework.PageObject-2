@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Bestbuy Test Script]">
+  <parameter name="url" value="https://www.bestbuy.com/"/>
+  <test thread-count="5" verbose="0" name="Bestbuy Home(failed)">
+    <classes>
+      <class name="home.BestbuySearch">
+        <methods>
+          <include name="setUp"/>
+          <include name="search"/>
+          <include name="cleanUp"/>
+        </methods>
+      </class> <!-- home.BestbuySearch -->
+    </classes>
+  </test> <!-- Bestbuy Home(failed) -->
+</suite> <!-- Failed suite [Bestbuy Test Script] -->

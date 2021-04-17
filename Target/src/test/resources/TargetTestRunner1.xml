@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "https://testing.org/testng-1.0.dtd">
+<suite name="Target Test Script" parallel="false">
+    <parameter name="url" value="https://www.target.com/"></parameter>
+    <test name="Target Home">
+
+        <classes>
+            <class name="home.TargetHomePage"></class>
+            <class name="home.TargetPageTitle"></class>
+            <class name="home.TargetSearch"></class>
+
+        </classes>
+
+
+    </test>
+</suite>

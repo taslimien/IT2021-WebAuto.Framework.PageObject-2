@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Walgreens Test Script" duration-ms="40039" started-at="2021-04-15T14:35:22 EDT" finished-at="2021-04-15T14:36:02 EDT">
+    <groups>
+    </groups>
+    <test name="Walgreens Home" duration-ms="40039" started-at="2021-04-15T14:35:22 EDT" finished-at="2021-04-15T14:36:02 EDT">
+      <class name="home.WalgreensSearch">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:home.WalgreensSearch@23faf8f2]" name="setUp" is-config="true" duration-ms="7918" started-at="2021-04-15T14:35:42 EDT" finished-at="2021-04-15T14:35:50 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.walgreens.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="search()[pri:0, instance:home.WalgreensSearch@23faf8f2]" name="search" duration-ms="10469" started-at="2021-04-15T14:35:50 EDT" finished-at="2021-04-15T14:36:01 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:home.WalgreensSearch@23faf8f2]" name="cleanUp" is-config="true" duration-ms="912" started-at="2021-04-15T14:36:01 EDT" finished-at="2021-04-15T14:36:02 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- home.WalgreensSearch -->
+      <class name="home.WalgreensHomePage">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:home.WalgreensHomePage@578486a3]" name="setUp" is-config="true" duration-ms="10076" started-at="2021-04-15T14:35:22 EDT" finished-at="2021-04-15T14:35:32 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.walgreens.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="homePage()[pri:0, instance:home.WalgreensHomePage@578486a3]" name="homePage" duration-ms="90" started-at="2021-04-15T14:35:32 EDT" finished-at="2021-04-15T14:35:32 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePage -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:home.WalgreensHomePage@578486a3]" name="cleanUp" is-config="true" duration-ms="1278" started-at="2021-04-15T14:35:32 EDT" finished-at="2021-04-15T14:35:33 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- home.WalgreensHomePage -->
+      <class name="home.WalgreensPageTitle">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:home.WalgreensPageTitle@d44fc21]" name="setUp" is-config="true" duration-ms="7911" started-at="2021-04-15T14:35:33 EDT" finished-at="2021-04-15T14:35:41 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.walgreens.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="checkTitle()[pri:0, instance:home.WalgreensPageTitle@d44fc21]" name="checkTitle" duration-ms="82" started-at="2021-04-15T14:35:41 EDT" finished-at="2021-04-15T14:35:41 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTitle -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:home.WalgreensPageTitle@d44fc21]" name="cleanUp" is-config="true" duration-ms="1262" started-at="2021-04-15T14:35:41 EDT" finished-at="2021-04-15T14:35:42 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- home.WalgreensPageTitle -->
+    </test> <!-- Walgreens Home -->
+  </suite> <!-- Walgreens Test Script -->
+</testng-results>

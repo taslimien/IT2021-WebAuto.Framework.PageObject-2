@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Target Test Script" duration-ms="43876" started-at="2021-04-15T14:34:05 EDT" finished-at="2021-04-15T14:34:49 EDT">
+    <groups>
+    </groups>
+    <test name="Target Home" duration-ms="43876" started-at="2021-04-15T14:34:05 EDT" finished-at="2021-04-15T14:34:49 EDT">
+      <class name="home.TargetHomePage">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:home.TargetHomePage@578486a3]" name="setUp" is-config="true" duration-ms="14380" started-at="2021-04-15T14:34:05 EDT" finished-at="2021-04-15T14:34:19 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.target.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="homePage()[pri:0, instance:home.TargetHomePage@578486a3]" name="homePage" duration-ms="16" started-at="2021-04-15T14:34:19 EDT" finished-at="2021-04-15T14:34:19 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePage -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:home.TargetHomePage@578486a3]" name="cleanUp" is-config="true" duration-ms="4076" started-at="2021-04-15T14:34:19 EDT" finished-at="2021-04-15T14:34:24 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- home.TargetHomePage -->
+      <class name="home.TargetSearch">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:home.TargetSearch@23faf8f2]" name="setUp" is-config="true" duration-ms="7654" started-at="2021-04-15T14:34:35 EDT" finished-at="2021-04-15T14:34:42 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.target.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="search()[pri:0, instance:home.TargetSearch@23faf8f2]" name="search" duration-ms="2539" started-at="2021-04-15T14:34:42 EDT" finished-at="2021-04-15T14:34:45 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:home.TargetSearch@23faf8f2]" name="cleanUp" is-config="true" duration-ms="4093" started-at="2021-04-15T14:34:45 EDT" finished-at="2021-04-15T14:34:49 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- home.TargetSearch -->
+      <class name="home.TargetPageTitle">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:home.TargetPageTitle@d44fc21]" name="setUp" is-config="true" duration-ms="10925" started-at="2021-04-15T14:34:24 EDT" finished-at="2021-04-15T14:34:35 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.target.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="checkTitle()[pri:0, instance:home.TargetPageTitle@d44fc21]" name="checkTitle" duration-ms="29" started-at="2021-04-15T14:34:35 EDT" finished-at="2021-04-15T14:34:35 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTitle -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:home.TargetPageTitle@d44fc21]" name="cleanUp" is-config="true" duration-ms="133" started-at="2021-04-15T14:34:35 EDT" finished-at="2021-04-15T14:34:35 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- home.TargetPageTitle -->
+    </test> <!-- Target Home -->
+  </suite> <!-- Target Test Script -->
+</testng-results>

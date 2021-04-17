@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Bestbuy Test Script" duration-ms="28356" started-at="2021-04-15T14:34:51 EDT" finished-at="2021-04-15T14:35:20 EDT">
+    <groups>
+    </groups>
+    <test name="Bestbuy Home" duration-ms="28356" started-at="2021-04-15T14:34:51 EDT" finished-at="2021-04-15T14:35:20 EDT">
+      <class name="home.BestbuyHomePage">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:home.BestbuyHomePage@1f36e637]" name="setUp" is-config="true" duration-ms="14388" started-at="2021-04-15T14:34:51 EDT" finished-at="2021-04-15T14:35:06 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.bestbuy.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="homePage()[pri:0, instance:home.BestbuyHomePage@1f36e637]" name="homePage" duration-ms="134" started-at="2021-04-15T14:35:06 EDT" finished-at="2021-04-15T14:35:06 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePage -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:home.BestbuyHomePage@1f36e637]" name="cleanUp" is-config="true" duration-ms="523" started-at="2021-04-15T14:35:06 EDT" finished-at="2021-04-15T14:35:06 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- home.BestbuyHomePage -->
+      <class name="home.BestbuyPageTitle">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:home.BestbuyPageTitle@51cdd8a]" name="setUp" is-config="true" duration-ms="11344" started-at="2021-04-15T14:35:06 EDT" finished-at="2021-04-15T14:35:18 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.bestbuy.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="checkTitle()[pri:0, instance:home.BestbuyPageTitle@51cdd8a]" name="checkTitle" duration-ms="614" started-at="2021-04-15T14:35:18 EDT" finished-at="2021-04-15T14:35:18 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTitle -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:home.BestbuyPageTitle@51cdd8a]" name="cleanUp" is-config="true" duration-ms="1317" started-at="2021-04-15T14:35:18 EDT" finished-at="2021-04-15T14:35:20 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- home.BestbuyPageTitle -->
+    </test> <!-- Bestbuy Home -->
+  </suite> <!-- Bestbuy Test Script -->
+</testng-results>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Amazon Test Script" duration-ms="36921" started-at="2021-04-15T14:30:21 EDT" finished-at="2021-04-15T14:30:57 EDT">
+    <groups>
+    </groups>
+    <test name="Amazon Home" duration-ms="36921" started-at="2021-04-15T14:30:21 EDT" finished-at="2021-04-15T14:30:57 EDT">
+      <class name="home.AmazonPageTitle">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:home.AmazonPageTitle@d44fc21]" name="setUp" is-config="true" duration-ms="5217" started-at="2021-04-15T14:30:32 EDT" finished-at="2021-04-15T14:30:37 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://amazon.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="checkTitle()[pri:0, instance:home.AmazonPageTitle@d44fc21]" name="checkTitle" duration-ms="430" started-at="2021-04-15T14:30:37 EDT" finished-at="2021-04-15T14:30:38 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTitle -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:home.AmazonPageTitle@d44fc21]" name="cleanUp" is-config="true" duration-ms="4073" started-at="2021-04-15T14:30:38 EDT" finished-at="2021-04-15T14:30:42 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- home.AmazonPageTitle -->
+      <class name="home.AmazonHomePage">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:home.AmazonHomePage@578486a3]" name="setUp" is-config="true" duration-ms="7086" started-at="2021-04-15T14:30:21 EDT" finished-at="2021-04-15T14:30:28 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://amazon.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="homePage()[pri:0, instance:home.AmazonHomePage@578486a3]" name="homePage" duration-ms="355" started-at="2021-04-15T14:30:28 EDT" finished-at="2021-04-15T14:30:28 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePage -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:home.AmazonHomePage@578486a3]" name="cleanUp" is-config="true" duration-ms="4126" started-at="2021-04-15T14:30:28 EDT" finished-at="2021-04-15T14:30:32 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- home.AmazonHomePage -->
+      <class name="home.AmazonSearch">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:home.AmazonSearch@23faf8f2]" name="setUp" is-config="true" duration-ms="5425" started-at="2021-04-15T14:30:42 EDT" finished-at="2021-04-15T14:30:47 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://amazon.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="search()[pri:0, instance:home.AmazonSearch@23faf8f2]" name="search" duration-ms="6097" started-at="2021-04-15T14:30:47 EDT" finished-at="2021-04-15T14:30:53 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:home.AmazonSearch@23faf8f2]" name="cleanUp" is-config="true" duration-ms="4078" started-at="2021-04-15T14:30:53 EDT" finished-at="2021-04-15T14:30:57 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- home.AmazonSearch -->
+    </test> <!-- Amazon Home -->
+  </suite> <!-- Amazon Test Script -->
+</testng-results>

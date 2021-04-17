@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "https://testing.org/testng-1.0.dtd">
+<suite name="Ebay Test Script" parallel="false">
+    <parameter name="url" value="https://www.ebay.com/"></parameter>
+    <test name="Ebay Home">
+
+        <classes>
+            <class name="home.EbayHomePage"></class>
+            <class name="home.EbayPageTitle"></class>
+            <class name="home.EbaySearch"></class>
+
+        </classes>
+
+
+    </test>
+</suite>

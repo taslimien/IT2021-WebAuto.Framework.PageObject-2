@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "https://testing.org/testng-1.0.dtd">
+<suite name="Walmart Test Script" parallel="false">
+    <parameter name="url" value="https://www.walmart.com/"></parameter>
+    <test name="Walmart Home">
+
+        <classes>
+            <class name="home.WalmartHomePage"></class>
+            <class name="home.WalmartPageTitle"></class>
+            <class name="home.WalmartSearch"></class>
+
+        </classes>
+
+
+    </test>
+</suite>

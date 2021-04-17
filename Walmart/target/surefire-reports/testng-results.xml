@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Walmart Test Script" duration-ms="28668" started-at="2021-04-15T14:33:35 EDT" finished-at="2021-04-15T14:34:03 EDT">
+    <groups>
+    </groups>
+    <test name="Walmart Home" duration-ms="28668" started-at="2021-04-15T14:33:35 EDT" finished-at="2021-04-15T14:34:03 EDT">
+      <class name="home.WalmartHomePage">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:home.WalmartHomePage@578486a3]" name="setUp" is-config="true" duration-ms="7079" started-at="2021-04-15T14:33:35 EDT" finished-at="2021-04-15T14:33:42 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.walmart.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="homePage()[pri:0, instance:home.WalmartHomePage@578486a3]" name="homePage" duration-ms="19" started-at="2021-04-15T14:33:42 EDT" finished-at="2021-04-15T14:33:42 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePage -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:home.WalmartHomePage@578486a3]" name="cleanUp" is-config="true" duration-ms="122" started-at="2021-04-15T14:33:42 EDT" finished-at="2021-04-15T14:33:42 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- home.WalmartHomePage -->
+      <class name="home.WalmartSearch">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:home.WalmartSearch@23faf8f2]" name="setUp" is-config="true" duration-ms="5291" started-at="2021-04-15T14:33:48 EDT" finished-at="2021-04-15T14:33:53 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.walmart.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="search()[pri:0, instance:home.WalmartSearch@23faf8f2]" name="search" duration-ms="6342" started-at="2021-04-15T14:33:53 EDT" finished-at="2021-04-15T14:33:59 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:home.WalmartSearch@23faf8f2]" name="cleanUp" is-config="true" duration-ms="4099" started-at="2021-04-15T14:33:59 EDT" finished-at="2021-04-15T14:34:03 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- home.WalmartSearch -->
+      <class name="home.WalmartPageTitle">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:home.WalmartPageTitle@d44fc21]" name="setUp" is-config="true" duration-ms="5495" started-at="2021-04-15T14:33:42 EDT" finished-at="2021-04-15T14:33:47 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.walmart.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="checkTitle()[pri:0, instance:home.WalmartPageTitle@d44fc21]" name="checkTitle" duration-ms="19" started-at="2021-04-15T14:33:47 EDT" finished-at="2021-04-15T14:33:47 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTitle -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:home.WalmartPageTitle@d44fc21]" name="cleanUp" is-config="true" duration-ms="158" started-at="2021-04-15T14:33:47 EDT" finished-at="2021-04-15T14:33:48 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- home.WalmartPageTitle -->
+    </test> <!-- Walmart Home -->
+  </suite> <!-- Walmart Test Script -->
+</testng-results>

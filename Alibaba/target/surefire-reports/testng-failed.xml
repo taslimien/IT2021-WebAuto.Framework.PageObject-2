@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Alibaba Test Script]">
+  <parameter name="url" value="https://www.alibaba.com/"/>
+  <test thread-count="5" verbose="0" name="Alibaba Home(failed)">
+    <classes>
+      <class name="home.AlibabaSearch">
+        <methods>
+          <include name="setUp"/>
+          <include name="search"/>
+          <include name="cleanUp"/>
+        </methods>
+      </class> <!-- home.AlibabaSearch -->
+    </classes>
+  </test> <!-- Alibaba Home(failed) -->
+</suite> <!-- Failed suite [Alibaba Test Script] -->

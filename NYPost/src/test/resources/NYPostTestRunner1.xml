@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "https://testing.org/testng-1.0.dtd">
+<suite name="NYPost Test Script" parallel="false">
+    <parameter name="url" value="https://nypost.com/"></parameter>
+    <test name="NYP Home">
+
+        <classes>
+            <class name="home.NYPostHomePage"></class>
+            <class name="home.NYPostSectionNews"></class>
+            <class name="home.NYPostTestSearch"></class>
+
+
+        </classes>
+
+
+    </test>
+</suite>

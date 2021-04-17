@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Ebay Test Script" duration-ms="23834" started-at="2021-04-15T14:32:47 EDT" finished-at="2021-04-15T14:33:11 EDT">
+    <groups>
+    </groups>
+    <test name="Ebay Home" duration-ms="23834" started-at="2021-04-15T14:32:47 EDT" finished-at="2021-04-15T14:33:11 EDT">
+      <class name="home.EbayHomePage">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:home.EbayHomePage@578486a3]" name="setUp" is-config="true" duration-ms="5133" started-at="2021-04-15T14:32:47 EDT" finished-at="2021-04-15T14:32:52 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.ebay.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="homePage()[pri:0, instance:home.EbayHomePage@578486a3]" name="homePage" duration-ms="38" started-at="2021-04-15T14:32:52 EDT" finished-at="2021-04-15T14:32:52 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePage -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:home.EbayHomePage@578486a3]" name="cleanUp" is-config="true" duration-ms="175" started-at="2021-04-15T14:32:52 EDT" finished-at="2021-04-15T14:32:53 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- home.EbayHomePage -->
+      <class name="home.EbayPageTitle">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:home.EbayPageTitle@d44fc21]" name="setUp" is-config="true" duration-ms="3401" started-at="2021-04-15T14:32:53 EDT" finished-at="2021-04-15T14:32:56 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.ebay.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="checkTitle()[pri:0, instance:home.EbayPageTitle@d44fc21]" name="checkTitle" duration-ms="70" started-at="2021-04-15T14:32:56 EDT" finished-at="2021-04-15T14:32:56 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTitle -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:home.EbayPageTitle@d44fc21]" name="cleanUp" is-config="true" duration-ms="100" started-at="2021-04-15T14:32:56 EDT" finished-at="2021-04-15T14:32:56 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- home.EbayPageTitle -->
+      <class name="home.EbaySearch">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:home.EbaySearch@23faf8f2]" name="setUp" is-config="true" duration-ms="3444" started-at="2021-04-15T14:32:56 EDT" finished-at="2021-04-15T14:33:00 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.ebay.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="search()[pri:0, instance:home.EbaySearch@23faf8f2]" name="search" duration-ms="7158" started-at="2021-04-15T14:33:00 EDT" finished-at="2021-04-15T14:33:07 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:home.EbaySearch@23faf8f2]" name="cleanUp" is-config="true" duration-ms="4266" started-at="2021-04-15T14:33:07 EDT" finished-at="2021-04-15T14:33:11 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- home.EbaySearch -->
+    </test> <!-- Ebay Home -->
+  </suite> <!-- Ebay Test Script -->
+</testng-results>
